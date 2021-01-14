@@ -1,0 +1,219 @@
+{
+	"id": "12b575de-5b2c-46c1-b9f5-dd378472245d",
+	"name": "Airbnb - Integration Tests",
+	"values": [
+		{
+			"key": "beds.2.bedNumber",
+			"value": "",
+			"enabled": false
+		},
+		{
+			"key": "beds.3.bedNumber",
+			"value": "",
+			"enabled": false
+		},
+		{
+			"key": "queryParam.bedType",
+			"value": "latex",
+			"enabled": true
+		},
+		{
+			"key": "queryParam.package",
+			"value": "bloodthirsty",
+			"enabled": true
+		},
+		{
+			"key": "queryParam.cleaningFreq",
+			"value": "never",
+			"enabled": true
+		},
+		{
+			"key": "queryParam.bloodTypes",
+			"value": "O-,O+",
+			"enabled": true
+		},
+		{
+			"key": "queryParam.minCapacity",
+			"value": "100",
+			"enabled": true
+		},
+		{
+			"key": "queryParam.arrivalDate",
+			"value": "2020-10-10",
+			"enabled": true
+		},
+		{
+			"key": "queryParam.numberOfNights",
+			"value": "2",
+			"enabled": true
+		},
+		{
+			"key": "queryParam.origin",
+			"value": "17855",
+			"enabled": true
+		},
+		{
+			"key": "queryParam.maxDistance",
+			"value": "20.0",
+			"enabled": true
+		},
+		{
+			"key": "param.bedNumber",
+			"value": "c4e1a2a1-0a82-47b1-ab99-ec57826f3fa1",
+			"enabled": true
+		},
+		{
+			"key": "param.bookingNumber",
+			"value": null,
+			"enabled": true
+		},
+		{
+			"key": "request.bed.ownerPublicKey",
+			"value": "\"8F0436A6FB049085B7F19AB73933973BF21276276F2EC7D122AC110BB46A3A4E\"",
+			"enabled": true
+		},
+		{
+			"key": "request.bed.zipCode",
+			"value": "\"90210\"",
+			"enabled": true
+		},
+		{
+			"key": "request.bed.bedType",
+			"value": "\"latex\"",
+			"enabled": true
+		},
+		{
+			"key": "request.bed.cleaningFrequency",
+			"value": "\"never\"",
+			"enabled": true
+		},
+		{
+			"key": "request.bed.bloodTypes",
+			"value": "[\"O-\", \"AB+\"]",
+			"enabled": true
+		},
+		{
+			"key": "request.bed.capacity",
+			"value": "400",
+			"enabled": true
+		},
+		{
+			"key": "request.bed.package1.name",
+			"value": "\"bloodthirsty\"",
+			"enabled": true
+		},
+		{
+			"key": "request.bed.package1.pricePerNight",
+			"value": "100.00",
+			"enabled": true
+		},
+		{
+			"key": "request.bed.package2.name",
+			"value": "\"allYouCanDrink\"",
+			"enabled": true
+		},
+		{
+			"key": "request.bed.package2.pricePerNight",
+			"value": "200.00",
+			"enabled": true
+		},
+		{
+			"key": "request.bed.lodgingMode",
+			"value": "\"cohabitation\"",
+			"enabled": true
+		},
+		{
+			"key": "host",
+			"value": "https://glo2003-h2020-eq08.herokuapp.com",
+			"enabled": true
+		},
+		{
+			"key": "request.booking.tenantPublicKey",
+			"value": "\"72001343BA93508E74E3BFFA68593C2016D0434CF0AA76CB3DF64F93170D60EC\"",
+			"enabled": true
+		},
+		{
+			"key": "request.booking.arrivalDate",
+			"value": "\"2020-10-10\"",
+			"enabled": true
+		},
+		{
+			"key": "request.booking.numberOfNights",
+			"value": "2",
+			"enabled": true
+		},
+		{
+			"key": "request.booking.package",
+			"value": "\"allYouCanDrink\"",
+			"enabled": true
+		},
+		{
+			"key": "request.booking.colonySize",
+			"value": "20",
+			"enabled": true
+		},
+		{
+			"key": "queryParam.lodgingMode",
+			"value": "private",
+			"enabled": true
+		},
+		{
+			"key": "testFeatures.externalApi.zippopotamus",
+			"value": "true",
+			"enabled": true
+		},
+		{
+			"key": "testFeatures.nullFields",
+			"value": "true",
+			"enabled": true
+		},
+		{
+			"key": "isoTime",
+			"value": "2020-05-01",
+			"enabled": true
+		},
+		{
+			"key": "beds.1.bedNumber",
+			"value": "519ac4fc-825f-4c09-a52e-0e8fcfc1b9bb",
+			"enabled": true
+		},
+		{
+			"key": "beds.2.bedNumber",
+			"value": "b413e494-0618-4dc2-96bf-a0c20d622b34",
+			"enabled": true
+		},
+		{
+			"key": "beds.3.bedNumber",
+			"value": "547f43aa-fd3a-46bc-8c6d-1da906ffeaba",
+			"enabled": true
+		},
+		{
+			"key": "beds.4.bedNumber",
+			"value": "86d6a56a-f3cf-49ab-b986-7e0e7cbce469",
+			"enabled": true
+		},
+		{
+			"key": "bookings.1.bookingNumber",
+			"value": "9ba86872-ea37-496d-b959-03dc0030d1e4",
+			"enabled": true
+		},
+		{
+			"key": "bookings.2.bookingNumber",
+			"value": "c125ff79-4f02-4cba-9c25-098ca58c2046",
+			"enabled": true
+		},
+		{
+			"key": "bookings.3.bookingNumber",
+			"value": "7106323b-d40e-44f5-944d-d9751d8af45f",
+			"enabled": true
+		},
+		{
+			"key": "bookings.4.bookingNumber",
+			"value": "4d896421-5f60-441f-bc1a-3460b50336d5",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2020-05-01T18:46:16.867Z",
+	"_postman_exported_using": "Postman/7.21.2"
+}

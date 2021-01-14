@@ -1,0 +1,24 @@
+name: Airbnb CI
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Check style
+        run: mvn git-code-format:validate-code-format
+      - name: Unit tests
+        run: mvn test && mvn jacoco:report
+      - name: Code coverage
+        run: mvn jacoco:report
+      - name: Upload to codecov
+        uses: codecov/codecov-action@v1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}

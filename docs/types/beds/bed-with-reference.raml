@@ -1,0 +1,31 @@
+#%RAML 1.0 DataType
+type: object
+displayName: BedWithReference
+uses:
+  types: ../../libraries/types.raml
+properties:
+    bedNumber:
+        type: types.BedNumber
+    ownerPublicKey:
+        type: types.PublicKey
+    zipCode:
+        type: types.ZipCode
+    bedType:
+        type: types.BedType
+    cleaningFrequency:
+        type: types.CleaningFrequency
+    bloodTypes:
+        description: Array of available blood types in bed
+        type: types.BloodType[]
+    lodgingMode:
+        required: false
+        default: private
+        type: types.LodgingMode
+    capacity:
+        required: true
+        type: types.Capacity
+    packages:
+        description: Array of available packages in bed, with no duplicated package name
+        type: types.BedPackage[]
+    stars:
+        type: types.Stars
